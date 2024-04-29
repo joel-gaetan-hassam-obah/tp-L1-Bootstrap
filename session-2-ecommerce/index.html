@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Session 2</title>
+    <!--    inclure notre lien css-->
+    <link rel="stylesheet" href="style.css">
+    <!--    inclure le lien css de bootstrapp-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body class="bg-secondary-subtle h-100">
+<!--start nav-->
+<nav class="bg-primary text-light px-5 py-2">
+    <div class="d-flex justify-content-between">
+        <!-- section gauche -->
+        <div class="d-flex gap-1">
+<!--            premier button-->
+            <select class="rounded p-1 border-0">
+                <option value="FCFA">FCFA</option>
+                <option value="Dollars">Dollars</option>
+                <option value="Euro">Euro</option>
+            </select>
+<!--            second button-->
+            <select class="rounded p-1 border-0">
+                <option value="Francais">Francais</option>
+                <option value="Anglais">Anglais</option>
+                <option value="Espagnol">Espagnol</option>
+            </select>
+        </div>
+        <!-- section droite -->
+        <div>
+            <ul class="nav">
+                <li class="nav-item border-end">
+                    <a class="nav-link active" aria-current="page" href="#">Accueil</a>
+                </li>
+                <li class="nav-item border-end">
+                    <a class="nav-link" href="categorie.html">categorie</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="Panier.html">
+                        <div class="d-flex gap-2">
+                            <i class="bi bi-cart4 text-warning"></i>
+                            <div class="d-flex flex-column">
+                                <span>Panier</span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- deuxieme ligne de la bare de navigation -->
+    <div class="d-flex my-2 justify-content-between">
+        <div>
+            <img height="60" src="https://img.freepik.com/vecteurs-libre/vecteur-degrade-logo-colore-oiseau_343694-1365.jpg?size=338&ext=jpg&ga=GA1.1.1413502914.1714003200&semt=sph" alt="">
+        </div>
+        <div class="input-group w-50" role="group" aria-label="Basic example">
+            <button class=" btn btn-outline-light dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Dropdown button
+            </button>
+            <input type="search" class="form-control bg-light">
+            <button type="button" class="btn btn-warning">
+                <i class="bi bi-search fs-3"></i>
+            </button>
+        </div>
+        <div class="d-flex gap-2">
+            <i class="bi bi-cart4 fs-1 text-warning"></i>
+            <div class="d-flex flex-column">
+                <span>Panier</span>
+                <span>80.000 Fcfa</span>
+            </div>
+        </div>
+    </div>
+    <!-- troisieme ligne de la bare de navigation -->
+    <div>
+        <ul class="nav justify-content-center border-top mt-5">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Electroniques</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="categorie.html">Vetements</a>
+            </li>
+            <li class="nav-item ">
+                <a class="nav-link" href="Panier.html">Voiture</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Electroniques</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="categorie.html">Vetements</a>
+            </li>
+            <li class="nav-item ">
+                <a class="nav-link" href="Panier.html">Voiture</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<!--end nav-->
+<div class="px-4">
+    <!--start section principal-->
+    <div class="row py-3">
+        <!-- section gauche category -->
+        <div class="col-3 bg-white rounded-3 py-2">
+            <!-- titre list -->
+            <div class="d-flex gap-2 p-2 bg-warning rounded">
+                <i class="bi bi-list"></i>
+                <span>Categories</span>
+            </div>
+            <!-- list -->
+            <div class="d-flex gap-2 p-2 border-bottom">
+                <i class="bi bi-list"></i>
+                <span>Categories</span>
+            </div>
+            <div class="d-flex gap-2 p-2 border-bottom">
+                <i class="bi bi-list"></i>
+                <span>Categories</span>
+            </div>
+            <div class="d-flex gap-2 p-2 border-bottom">
+                <i class="bi bi-list"></i>
+                <span>Categories</span>
+            </div>
+            <div class="d-flex gap-2 p-2 border-bottom">
+                <i class="bi bi-list"></i>
+                <span>Categories</span>
+            </div>
+            <div class="d-flex gap-2 p-2 border-bottom">
+                <i class="bi bi-list"></i>
+                <span>Categories</span>
+            </div>
+            <div class="d-flex gap-2 p-2 border-bottom">
+                <i class="bi bi-list"></i>
+                <span>Categories</span>
+            </div>
+            <div class="d-flex gap-2 p-2 border-bottom">
+                <i class="bi bi-list"></i>
+                <span>Categories</span>
+            </div>
+            <div class="d-flex gap-2 p-2 border-bottom">
+                <i class="bi bi-list"></i>
+                <span>Categories</span>
+            </div>
+            <div class="d-flex gap-2 p-2">
+                <i class="bi bi-list"></i>
+                <span>Categories</span>
+            </div>
+        </div>
+        <!-- section contenue -->
+        <div class="col-9 border">
+            <img class="w-100 rounded h-100 object-fit-cover" src="https://www.templateshub.net/uploads/1545118579%201544149615%20marazzo.webp" alt="">
+        </div>
+    </div>
+    <!--end section principal-->
+    <!--start list produit-->
+    <h1 class="mt-5 mb-4 bg-primary text-light p-3 rounded-3">Liste de produits</h1>
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+        <div class="col">
+            <div class="card">
+                <img class="w-100 card-img" src="https://www.templateshub.net/uploads/1545118579%201544149615%20marazzo.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <img class="w-100 card-img" src="https://www.templateshub.net/uploads/1545118579%201544149615%20marazzo.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <img class="w-100 card-img" src="https://www.templateshub.net/uploads/1545118579%201544149615%20marazzo.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <img class="w-100 card-img" src="https://www.templateshub.net/uploads/1545118579%201544149615%20marazzo.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <img class="w-100 card-img" src="https://www.templateshub.net/uploads/1545118579%201544149615%20marazzo.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <img class="w-100 card-img" src="https://www.templateshub.net/uploads/1545118579%201544149615%20marazzo.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <img class="w-100 card-img" src="https://www.templateshub.net/uploads/1545118579%201544149615%20marazzo.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <img class="w-100 card-img" src="https://www.templateshub.net/uploads/1545118579%201544149615%20marazzo.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <img class="w-100 card-img" src="https://www.templateshub.net/uploads/1545118579%201544149615%20marazzo.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--end list produit-->
+</div>
+</body>
+</html>
